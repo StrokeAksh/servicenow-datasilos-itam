@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="alm_fixed_assets" version="2" view="datasilos">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fixed_asset</element>
+            <list_id display_value="alm_fixed_assets" element="NULL" name="alm_fixed_assets" parent="NULL" relationship="NULL" sys_domain="global" view="268b1d0adb849090ba15a35305961902">ac3f2bdddbae4910b652edb305961913</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-29 16:57:30</sys_created_on>
+            <sys_id>683f2bdddbae4910b652edb305961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-29 16:57:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>x_snc_datasilosam_global</element>
+            <list_id display_value="alm_fixed_assets" element="NULL" name="alm_fixed_assets" parent="NULL" relationship="NULL" sys_domain="global" view="268b1d0adb849090ba15a35305961902">ac3f2bdddbae4910b652edb305961913</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-29 16:57:30</sys_created_on>
+            <sys_id>e83f2bdddbae4910b652edb305961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-29 16:57:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>x_snc_datasilosam_supervisor_whitelist</element>
+            <list_id display_value="alm_fixed_assets" element="NULL" name="alm_fixed_assets" parent="NULL" relationship="NULL" sys_domain="global" view="268b1d0adb849090ba15a35305961902">ac3f2bdddbae4910b652edb305961913</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-29 16:57:30</sys_created_on>
+            <sys_id>6c3f2bdddbae4910b652edb305961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-29 16:57:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>x_snc_datasilosam_fulfiller_whitelist</element>
+            <list_id display_value="alm_fixed_assets" element="NULL" name="alm_fixed_assets" parent="NULL" relationship="NULL" sys_domain="global" view="268b1d0adb849090ba15a35305961902">ac3f2bdddbae4910b652edb305961913</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-29 16:57:30</sys_created_on>
+            <sys_id>ec3f2bdddbae4910b652edb305961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-29 16:57:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>x_snc_datasilosam_group_whitelist</element>
+            <list_id display_value="alm_fixed_assets" element="NULL" name="alm_fixed_assets" parent="NULL" relationship="NULL" sys_domain="global" view="268b1d0adb849090ba15a35305961902">ac3f2bdddbae4910b652edb305961913</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-29 16:57:30</sys_created_on>
+            <sys_id>603f2bdddbae4910b652edb305961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-29 16:57:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>x_snc_datasilosam_security_clearance</element>
+            <list_id display_value="alm_fixed_assets" element="NULL" name="alm_fixed_assets" parent="NULL" relationship="NULL" sys_domain="global" view="268b1d0adb849090ba15a35305961902">ac3f2bdddbae4910b652edb305961913</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-29 16:57:30</sys_created_on>
+            <sys_id>e03f2bdddbae4910b652edb305961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-29 16:57:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>x_snc_datasilosam_ghost</element>
+            <list_id display_value="alm_fixed_assets" element="NULL" name="alm_fixed_assets" parent="NULL" relationship="NULL" sys_domain="global" view="268b1d0adb849090ba15a35305961902">ac3f2bdddbae4910b652edb305961913</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-29 16:57:30</sys_created_on>
+            <sys_id>243f2fdddbae4910b652edb305961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-29 16:57:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>x_snc_datasilosam_last_maintenance</element>
+            <list_id display_value="alm_fixed_assets" element="NULL" name="alm_fixed_assets" parent="NULL" relationship="NULL" sys_domain="global" view="268b1d0adb849090ba15a35305961902">ac3f2bdddbae4910b652edb305961913</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-29 16:57:30</sys_created_on>
+            <sys_id>a43f2fdddbae4910b652edb305961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-29 16:57:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>alm_fixed_assets</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-29 16:57:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac3f2bdddbae4910b652edb305961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>alm_fixed_assets</sys_name>
+            <sys_package display_value="DataSilosITAM WORK IN PROGRESS" source="x_snc_datasilosam">6ca9f098db41c954bcced03cd396198d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DataSilosITAM WORK IN PROGRESS">6ca9f098db41c954bcced03cd396198d</sys_scope>
+            <sys_update_name>sys_ui_list_alm_fixed_assets_datasilos</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-29 16:57:30</sys_updated_on>
+            <sys_user/>
+            <view display_value="DataSilos" name="datasilos">268b1d0adb849090ba15a35305961902</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_datasilosam.DataSilos</api_name>
+        <caller_access>1</caller_access>
+        <client_callable>false</client_callable>
+        <description>Implements the extension point for DataSilos.</description>
+        <name>DataSilos</name>
+        <script><![CDATA[var DataSilos = Class.create();
+DataSilos.prototype = {
+    initialize: function() {
+    },
+
+    GetConfig: function(config)
+	{
+		var IsValidFunction = x_snc_devtools.IsValidFunction;
+		if (IsActive() && IsValidFunction(x_snc_datasilosam.DataSilosGetConfig))
+		{
+			config = DataSilosGetConfig(config);
+		}
+        return config;
+    },
+	
+    GetRelatedRecords: function(record)
+	{
+		var IsValidFunction = x_snc_devtools.IsValidFunction;
+		if (IsActive() && IsValidFunction(x_snc_datasilosam.DataSilosGetRelatedRecords))
+		{
+			return DataSilosGetRelatedRecords(record);
+		}
+        return false;
+    },		
+
+    RecordInsert: function(record)
+	{
+		var IsValidFunction = x_snc_devtools.IsValidFunction;
+		if (IsActive() && IsValidFunction(x_snc_datasilosam.DataSilosRecordInsert))
+		{
+			return DataSilosRecordInsert(record);
+		}
+        return false;
+    },		
+	
+    RecordUpdate: function(record)
+	{
+		var IsValidFunction = x_snc_devtools.IsValidFunction;
+		if (IsActive() && IsValidFunction(x_snc_datasilosam.DataSilosRecordUpdate))
+		{
+			return DataSilosRecordUpdate(record);
+		}
+        return false;
+    },	
+
+    type: 'DataSilos'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 11:37:44</sys_created_on>
+        <sys_id>73f9f4d8db41c954bcced03cd39619a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DataSilos</sys_name>
+        <sys_package display_value="DataSilosITAM WORK IN PROGRESS" source="x_snc_datasilosam">6ca9f098db41c954bcced03cd396198d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DataSilosITAM WORK IN PROGRESS">6ca9f098db41c954bcced03cd396198d</sys_scope>
+        <sys_update_name>sys_script_include_73f9f4d8db41c954bcced03cd39619a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 11:37:44</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_datasilosam.DataSilosGetRelatedRecords</api_name>
+        <caller_access>1</caller_access>
+        <client_callable>false</client_callable>
+        <description>The DataSilosGetRelatedRecords function is called by the DataSilos extension point instance class and returns an array of related records to the given record. If the record does not have any related records the function should return an empty array. If the function returns false, the default DataSilos function or other extensions will provide the related records.</description>
+        <name>DataSilosGetRelatedRecords</name>
+        <script><![CDATA[function DataSilosGetRelatedRecords(record)
+{
+	var IsValidRecord = x_snc_devtools.IsValidRecord;
+	var RenderValue = x_snc_devtools.RenderValue;
+
+	var aRelatedRecords = [];
+
+	var strTable = x_snc_datasilos.GetSupportedTableFromRecord(record);
+
+	if (strTable == 'alm_asset')
+	{
+		// Add your code here...
+		return aRelatedRecords;
+	}
+	
+	if (strTable == 'alm_fixed_assets')
+	{
+		// Add your code here...
+		return aRelatedRecords;
+	}
+	
+	if (strTable == 'alm_entitlement')
+	{
+		// Add your code here...
+		return aRelatedRecords;
+	}
+	
+	return false;
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 11:37:35</sys_created_on>
+        <sys_id>f9f934d8db41c954bcced03cd39619c4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>DataSilosGetRelatedRecords</sys_name>
+        <sys_package display_value="DataSilosITAM WORK IN PROGRESS" source="x_snc_datasilosam">6ca9f098db41c954bcced03cd396198d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DataSilosITAM WORK IN PROGRESS">6ca9f098db41c954bcced03cd396198d</sys_scope>
+        <sys_update_name>sys_script_include_f9f934d8db41c954bcced03cd39619c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-29 16:55:56</sys_updated_on>
+    </sys_script_include>
+</record_update>
