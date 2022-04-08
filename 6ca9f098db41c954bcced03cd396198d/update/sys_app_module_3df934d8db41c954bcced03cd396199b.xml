@@ -13,7 +13,7 @@
         <mobile_title>Manual</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>22100</order>
+        <order>22101</order>
         <override_menu_roles>false</override_menu_roles>
         <query>/x_snc_datasilosam_manual.do</query>
         <report/>
@@ -24,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3df934d8db41c954bcced03cd396199b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Manual</sys_name>
         <sys_overrides/>
         <sys_package display_value="DataSilosITAM WORK IN PROGRESS" source="x_snc_datasilosam">6ca9f098db41c954bcced03cd396198d</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="DataSilosITAM WORK IN PROGRESS">6ca9f098db41c954bcced03cd396198d</sys_scope>
         <sys_update_name>sys_app_module_3df934d8db41c954bcced03cd396199b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-10 11:37:35</sys_updated_on>
+        <sys_updated_on>2022-04-08 14:22:43</sys_updated_on>
         <timeline_page/>
         <title>Manual</title>
         <uncancelable>false</uncancelable>
