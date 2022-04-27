@@ -13,9 +13,9 @@
         <sys_id>14f9f0d8db41c954bcced03cd3961990</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_datasilosam.active</sys_name>
-        <sys_package display_value="DataSilosITAM WORK IN PROGRESS" source="x_snc_datasilosam">6ca9f098db41c954bcced03cd396198d</sys_package>
+        <sys_package display_value="DataSilos IT Asset Management" source="x_snc_datasilosam">6ca9f098db41c954bcced03cd396198d</sys_package>
         <sys_policy/>
-        <sys_scope display_value="DataSilosITAM WORK IN PROGRESS">6ca9f098db41c954bcced03cd396198d</sys_scope>
+        <sys_scope display_value="DataSilos IT Asset Management">6ca9f098db41c954bcced03cd396198d</sys_scope>
         <sys_update_name>sys_properties_14f9f0d8db41c954bcced03cd3961990</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-01-10 11:37:30</sys_updated_on>

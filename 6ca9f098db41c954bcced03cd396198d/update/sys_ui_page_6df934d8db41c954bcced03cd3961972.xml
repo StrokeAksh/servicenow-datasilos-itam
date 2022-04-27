@@ -18,6 +18,7 @@
 
 	<h2>Features</h2> 
 	<p>Supports DataSilos filtering on tables alm_asset, alm_entitlement and alm_fixed_asset.</p>
+	<p>Related records are not (yet) considered. For alm_asset, the support_group gets access to the records. For alm_entitlement and alm_fixed_asset there is no feasible way based on OOTB fields to derive visibility for groups automatically - so additional logic needs to be implemented to make records visible to users on these tables.</p>
 
 	<h2>Disclaimer</h2>
 	<g2:no_escape>$[docapi.RenderDisclaimer()]</g2:no_escape>	
@@ -77,7 +78,7 @@
 		<li>TODO: document changes here</li>
 	</ol>
 -->
-	<h3>1.0.0 - 2022-TODO</h3>
+	<h3>1.0.0 - 2022-04-27</h3>
 	<p>First baselined version</p>
 
 <span style="visibility: hidden;">_CUT_HERE_</span>
@@ -89,13 +90,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-10 11:37:34</sys_created_on>
         <sys_id>6df934d8db41c954bcced03cd3961972</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>manual</sys_name>
-        <sys_package display_value="DataSilosITAM WORK IN PROGRESS" source="x_snc_datasilosam">6ca9f098db41c954bcced03cd396198d</sys_package>
+        <sys_package display_value="DataSilos IT Asset Management" source="x_snc_datasilosam">6ca9f098db41c954bcced03cd396198d</sys_package>
         <sys_policy/>
-        <sys_scope display_value="DataSilosITAM WORK IN PROGRESS">6ca9f098db41c954bcced03cd396198d</sys_scope>
+        <sys_scope display_value="DataSilos IT Asset Management">6ca9f098db41c954bcced03cd396198d</sys_scope>
         <sys_update_name>sys_ui_page_6df934d8db41c954bcced03cd3961972</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-29 17:44:06</sys_updated_on>
+        <sys_updated_on>2022-04-27 09:08:43</sys_updated_on>
     </sys_ui_page>
 </record_update>
