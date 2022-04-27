@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_datasilosam.DataSilosGetConfig</api_name>
+        <caller_access>1</caller_access>
+        <client_callable>false</client_callable>
+        <description>The DataSilosGetConfig is called by the DataSilos extension point instance class and returns the config object with all relevant changes and additions.</description>
+        <name>DataSilosGetConfig</name>
+        <script><![CDATA[function DataSilosGetConfig(config)
+{
+	config['tables']['alm_asset'] =
+	{
+		'scope': 'x_snc_datasilosam',
+		'active': true,
+		'avoid_expensive_queries': false,
+		'columns':
+		{
+			'instant_access':
+			{
+				'sys_user': ''
+			},
+			'whitelist_trigger':
+			{
+				'sys_user_group': 'support_group'
+			},
+		}
+	};
+	
+	config['tables']['alm_fixed_assets'] =
+	{
+		'scope': 'x_snc_datasilosam',
+		'active': true,
+		'avoid_expensive_queries': false,
+		'columns':
+		{
+			'instant_access':
+			{
+				'sys_user': ''
+			},
+			'whitelist_trigger':
+			{
+				'sys_user_group': ''
+			},
+		}
+	};
+	
+	config['tables']['alm_entitlement'] =
+	{
+		'scope': 'x_snc_datasilosam',
+		'active': true,
+		'avoid_expensive_queries': false,
+		'columns':
+		{
+			'instant_access':
+			{
+				'sys_user': ''
+			},
+			'whitelist_trigger':
+			{
+				'sys_user_group': ''
+			},
+		}
+	};
+	
+	return config;
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 11:37:35</sys_created_on>
+        <sys_id>f9f934d8db41c954bcced03cd39619bf</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>DataSilosGetConfig</sys_name>
+        <sys_package display_value="DataSilos IT Asset Management" source="x_snc_datasilosam">6ca9f098db41c954bcced03cd396198d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DataSilos IT Asset Management">6ca9f098db41c954bcced03cd396198d</sys_scope>
+        <sys_update_name>sys_script_include_f9f934d8db41c954bcced03cd39619bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-29 17:30:05</sys_updated_on>
+    </sys_script_include>
+</record_update>

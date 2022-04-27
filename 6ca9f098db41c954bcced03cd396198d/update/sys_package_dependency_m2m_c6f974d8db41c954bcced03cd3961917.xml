@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Asset Management" source="com.snc.asset_management">549b3e19db140110b652edb305961900</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 11:37:36</sys_created_on>
+        <sys_id>c6f974d8db41c954bcced03cd3961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="DataSilosITAM WORK IN PROGRESS" source="x_snc_datasilosam">6ca9f098db41c954bcced03cd396198d</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 11:37:36</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
