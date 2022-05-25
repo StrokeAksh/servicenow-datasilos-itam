@@ -22,9 +22,9 @@
         <sys_id>91f934d8db41c954bcced03cd3961954</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>AppInstall</sys_name>
-        <sys_package display_value="DataSilos IT Asset Management" source="x_snc_datasilosam">6ca9f098db41c954bcced03cd396198d</sys_package>
+        <sys_package display_value="DataSilos IT Asset Management WORK IN PROGRESS" source="x_snc_datasilosam">6ca9f098db41c954bcced03cd396198d</sys_package>
         <sys_policy/>
-        <sys_scope display_value="DataSilos IT Asset Management">6ca9f098db41c954bcced03cd396198d</sys_scope>
+        <sys_scope display_value="DataSilos IT Asset Management WORK IN PROGRESS">6ca9f098db41c954bcced03cd396198d</sys_scope>
         <sys_update_name>sys_script_include_91f934d8db41c954bcced03cd3961954</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-01-10 11:37:34</sys_updated_on>
